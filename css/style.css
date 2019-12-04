@@ -257,13 +257,15 @@ body {
 .item4 {
     grid-row: 2/3;
     grid-column: 1/2;
-    background: url("../img/item4.png") no-repeat;
+    background: url("../img/сайт4.PNG") no-repeat;
+    background-size: cover;
 }
 
 .item4:hover{
     background:
     linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
-    url("../img/item4.png") no-repeat;
+    url("../img/сайт4.PNG") no-repeat;
+    background-size: cover;
 }
 
 .item5 {
