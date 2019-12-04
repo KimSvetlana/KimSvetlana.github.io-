@@ -1,0 +1,458 @@
+body {
+    min-width: 1600px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    background-color: white;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.logo {
+   
+    background-color: rgb(246, 249, 249 );
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img {
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 31px;
+    margin-left: 23px;
+}
+
+.logo-title {
+    text-transform: uppercase;
+    padding-left: 70px;
+    padding-top: 39px;
+    font-size: 30px;
+    line-height: 24px; 
+    color: #2d3950;
+}
+
+.header-promo {
+    min-height: 800px;
+    position: relative;
+    background: url("../img/header.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 170px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+    padding-bottom: 36px; 
+    margin-right: 275px;
+    margin-left: 275px;
+    border-bottom: 3px solid rgb(21, 164, 250);
+}
+
+.header-promo p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 47px;
+   margin-top: -50px; 
+}
+.strict {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header-promo .btn {
+    position: absolute;
+    margin-left:479px;
+    margin-top: 22px;
+    display: inline-block;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.header-promo .btn:hover {
+    border: 2px solid rgb(21, 164, 250);
+}
+
+.header-promo .btn:active {
+   background-color: rgb(21, 164, 250);
+}
+
+
+.description {  
+    background-color: rgb(246, 249, 249 );
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.description .title {
+    color:  #2d3950;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.description p {
+    color: #999999;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.features {
+    padding-top: 90px;
+    /* padding-bottom: 66px; */
+}
+
+.features ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.features-item {
+    position: relative;
+    float: left;
+   padding-top: 55px; 
+    text-align: center;
+}
+
+.feature-choice {
+    width: 375px;
+}
+
+.feature-quality{
+    width: 390px;
+}
+
+.feature-safety {
+    width: 375px;
+}
+
+.features-item::before {
+    content: "";
+    position: absolute;
+    top: -55px;
+    left: 137px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.feature-choice::before {
+    background-image: url("../img/Icon.png");
+}
+
+.feature-quality::before {
+    background-image: url("../img/Icon2.png");
+}
+
+.feature-safety::before {
+    background-image: url("../img/Icon3.png");
+}
+
+.features-title {
+    font-size: 22px;
+    color: #2d3950;
+}
+
+.features-item p {
+    font-size: 15px;
+    color: #999999;
+}
+
+.catalog-item {
+    background-color: rgb(246, 249, 249 );
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.catalog-item-title h3 {
+    font-size: 41px;
+    color: #2d3950;
+    text-align: center;
+    font-weight: normal;
+}
+
+.catalog-item-title p {
+    font-size: 15px;
+    color: #909090;
+    text-align: center;
+    font-weight: normal;
+}
+
+.catalog {
+    margin-top:80px;
+    margin-bottom: 115px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 260px 260px;
+    grid-gap: 30px;
+}
+
+.item1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background: url("../img/сайт1.PNG") no-repeat;
+    background-size: cover;
+}
+
+.item1:hover{
+    background:
+    linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
+    url("../img/сайт1.PNG") no-repeat;
+    background-size: cover;
+}
+
+.item2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background: url("../img/item2.jpg") no-repeat;
+}
+
+.item2:hover{
+    background:
+    linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
+    url("../img/item2.jpg") no-repeat;
+}
+
+.item3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background: url("../img/item3.png") no-repeat;
+}
+
+.item3:hover{
+    background:
+    linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
+    url("../img/item3.png") no-repeat;
+}
+
+.item4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background: url("../img/item4.png") no-repeat;
+}
+
+.item4:hover{
+    background:
+    linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
+    url("../img/item4.png") no-repeat;
+}
+
+.item5 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background: url("../img/item5.png") no-repeat;
+}
+
+.item5:hover{
+    background:
+    linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
+    url("../img/item5.png") no-repeat;
+}
+
+.item6 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background: url("../img/item6.png") no-repeat;
+}
+
+.item6:hover{
+    background:
+    linear-gradient(to top, rgb(44, 173, 250, 0.8), rgb(44, 173, 250, 0.8)),
+    url("../img/item6.png") no-repeat;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+} 
+
+.loop{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    display:none; 
+    background: url("../img/Icon4.png") no-repeat 15px center;
+
+}
+
+.item1:hover .loop,
+.item1:hover .galary, 
+.item2:hover .loop,
+.item2:hover .galary,
+.item3:hover .loop,
+.item3:hover .galary,
+.item4:hover .loop,
+.item4:hover .galary,
+.item5:hover .loop,
+.item5:hover .galary,
+.item6:hover .loop,
+.item6:hover .galary {
+    display: block;
+}
+
+.feedback {
+    min-height: 400px;
+    margin-top: -40px;
+    background: 
+    linear-gradient(to top, rgb(45, 57, 80, 0.8), rgb(45, 57, 80, 0.8)),
+    url("../img/feedback.jpg"), no-repeat;          
+    background-size: cover;
+} 
+
+.feedback h3 {
+    text-align: center;
+    font-size: 41px;
+    color: white;
+    padding-top: 70px; 
+    font-weight: normal;
+}
+.feedback p {
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+    margin-top:-10px;
+}
+
+.feedback-form {
+    width: 555px;
+    margin-top: 50px;
+    padding-right: 280px;
+    padding-left: 286px;
+}
+.fullname input[type="text"],
+.email input[type="text"],
+.message textarea {
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+    width: 100%;
+    height: 62px;
+    padding: 20px;
+    font: 15;
+    color: white;
+    background:  rgba(11, 79, 182, 0);
+    border: 2px solid rgb(153, 153, 153);
+    border-radius:5px;
+}
+
+.message textarea {
+    display: block;
+    min-height: 162px;
+}
+
+
+.fullname input[type="text"]:hover,
+.email input[type="text"]:hover,
+.message textarea:hover {
+    border-color: white;
+}
+
+.feedback-form .btn {
+    float: right;
+    margin-top: -40px;
+    width: 142px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 5px;
+    background:  rgba(11, 79, 182, 0);
+}
+
+.feedback-form .btn:hover{
+    border: 2px solid rgb(23, 154, 233); 
+}
+.feedback-form .btn:active{
+    border: 2px solid rgb(23, 154, 233); 
+    background:  rgb(23, 154, 233);
+}
+
+.checkbox-area {
+    padding-top: 17px;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.checkbox-area input[type="checkbox"] {
+    margin: 0;
+    margin-right: 13px;
+}
+
+
+.page-footer {
+   position: relative;
+   background-color: rgb(246, 249, 249 );
+}
+
+.footer-copyright {
+    margin-top: 35px;
+    color: #999999;
+    font-size: 15px;
+}
+
+.footer-social {
+    float: right;
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+    vertical-align: middle;
+    font-size: 0px;
+    background-color: rgb(21, 164, 250);
+}
+
+.social-btn-fb:active {
+    background-color: rgb(59, 89, 152);
+}
+
+.social-btn-tv:active {
+    background-color: rgb(85, 172, 238); 
+}
+
+.social-btn-gl:active {
+    background-color: rgb(221, 75, 57);
+}
+.social-btn-in:active {
+    background-color: rgb(9, 118, 180);
+}
