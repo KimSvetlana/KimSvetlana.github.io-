@@ -221,6 +221,10 @@ tr {
     right:40px;
 }
 
+.flex-container{
+    display: flex;
+}
+
 .features{
     padding:0;
     padding-top:80px;
@@ -237,11 +241,9 @@ tr {
     margin:0;
     padding:0;
     position: relative;
-    float: left;
-    width: 335px;
-    padding-top: 180px;
+    /* padding-top: 180px; */
     /* padding-right: 90px; */
-     /* padding-left: 90px; */ 
+     padding-left: 10px; 
     border-left: 2px solid rgb(231, 182, 106);
 }
 
