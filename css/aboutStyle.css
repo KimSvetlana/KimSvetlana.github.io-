@@ -1,0 +1,43 @@
+header h2 a {
+    text-decoration: none;
+    color: rgb(21, 164, 250);
+}
+
+section {
+    padding: 30px 10px;
+}
+
+.img-section {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image:url(../img/bgImg1.jpg)
+}
+
+div .img{
+    width: 170px;
+    height: 170px;
+    background-image: url(../img/Foto.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.img-section div:nth-child(2){
+    align-self: flex-end;
+    border-bottom: solid 1px rgb(21, 164, 250);
+}
+
+.img-section h2 {
+    color: white;
+}
+
+section p{
+    color: #999999;
+    font-size: 20px;
+    line-height: 32px;
+}
+p .aurigma-link{
+    color: rgb(21, 164, 250);
+    text-decoration: none;
+}

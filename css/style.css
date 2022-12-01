@@ -20,8 +20,7 @@ body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-between;;
-    /* background-color: rgb(246, 249, 249 ); */
+    justify-content: space-between;
 }
 
 .menu-title {
@@ -95,7 +94,6 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    /* background-color: rgb(246, 249, 249 ); */
     padding-top: 30px;
     padding-bottom: 30px;
     border-bottom: solid 1px rgb(21, 164, 250) ;
@@ -177,7 +175,6 @@ body {
 }
 
 .catalog{
-    /* background-color: rgb(246, 249, 249 ); */
     padding: 10px 0px;
     border-bottom: solid 1px rgb(21, 164, 250);
 }
@@ -186,7 +183,6 @@ body {
     font-size: 40px;
     margin-bottom: 15px;
     color:#999999;
-    /* color: rgb(21, 164, 250); */
     text-align: center;
     font-weight: normal;
 }
@@ -333,14 +329,7 @@ body {
 
 .button:hover {
     justify-content: space-between;
-    /* flex: 120px;
-    animation: moveAnim 3s alternate 1; */
 }
-
-/* @keyframes moveAnim {
-    from { flex: none }
-    to{ flex: 120px }
-} */
 
 .button:hover .arrow{
     display: inline;
